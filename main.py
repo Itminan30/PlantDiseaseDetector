@@ -1,11 +1,11 @@
 import streamlit as st
 import tensorflow as tf
 import numpy as np
-import sys
-import path
+# import sys
+# import path
 
-dir = path.Path(__file__).abspath()
-sys.path.append(dir.parent.parent)
+# dir = path.Path(__file__).abspath()
+# sys.path.append(dir.parent.parent)
 
 #Tensorflow Model Prediction
 def model_prediction(test_image):
